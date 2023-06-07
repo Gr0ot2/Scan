@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Jun/2023:16:54:40 +0200] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:41 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1848
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:41 +0200] "GET /proyecto/pagina_principal.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:41 +0200] "GET /proyecto/img/istockphoto-868146602-612x612.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:46 +0200] "GET /proyecto/pagina_principal.jsp HTTP/1.1" 200 1848
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:46 +0200] "GET /proyecto/pagina_principal.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:46 +0200] "GET /proyecto/img/istockphoto-868146602-612x612.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:46 +0200] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:48 +0200] "GET /proyecto/pagina_caballos.jsp HTTP/1.1" 200 4602
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:48 +0200] "GET /proyecto/1.js HTTP/1.1" 404 704
+0:0:0:0:0:0:0:1 - - [04/Jun/2023:16:54:48 +0200] "GET /proyecto/pagina_caballos.css HTTP/1.1" 304 -

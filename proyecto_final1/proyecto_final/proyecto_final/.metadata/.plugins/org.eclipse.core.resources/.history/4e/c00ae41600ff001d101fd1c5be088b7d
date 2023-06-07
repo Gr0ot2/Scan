@@ -1,0 +1,132 @@
+*{
+ border:2px solid red;
+ } 
+body {
+ background-image:url("img/istockphoto-868146602-612x612.jpg");
+  
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+display: grid;
+height: 0vh;
+}
+/* titulo con el resto de redirecciones al resto de páginas */
+h1 {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  width: 100%;
+}
+
+a:active {
+  color: #3104b4;
+}
+
+nav li:hover {
+  color: #07ad47;
+}
+
+ li {
+ margin-bottom:10px;
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #f9ffae;
+  border: 1px solid #000;
+  text-align: center;
+  color: black;
+}
+
+#titulo{
+	margin-bottom:1500px;
+}
+/* login con la foto del caballo */
+ #log {
+ position: relative;
+  right: 850px;
+  bottom:1689px;
+  z-index: 1000;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#photos{
+	position: relative;
+	bottom:1550px;
+	max-height: 30vh;
+}
+#photo_espuela{
+position: relative;
+width:300px;
+height:330px;
+top: 0px;
+left:500px;
+padding: 5px 5px 0px 5px;
+}
+#photo1{
+	width: 200px;
+}
+
+#espuela{
+	color: white;
+}
+#photo_casco{
+position: relative;
+width:300px;
+height:330px;
+bottom:360px;
+left:1000px;
+padding: 5px 5px 0px 5px;
+}
+#photo2{
+	width: 200px;
+}
+
+#casco{
+	color: white;
+}
+#photo_guantes{
+position: relative;
+width:300px;
+height:300px;
+bottom:409px;
+left:1000px;
+padding: 5px 5px 0px 5px;
+}
+#photo3{
+	width: 150px;
+}
+
+#guantes{
+	color: white;
+}
+#photo_pantalon{
+position: relative;
+width:300px;
+height:300px;
+bottom:788px;
+left:500px;
+padding: 5px 5px 0px 5px;
+}
+#photo4{
+	width: 170px;
+}
+
+#pantalon{
+	color: white;
+}

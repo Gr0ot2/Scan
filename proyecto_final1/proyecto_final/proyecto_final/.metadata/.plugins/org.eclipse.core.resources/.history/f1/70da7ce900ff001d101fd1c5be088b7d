@@ -1,0 +1,240 @@
+*{
+ border:2px solid red;
+ } 
+
+
+body {
+ background-image:url("img/istockphoto-868146602-612x612.jpg");
+ 
+ background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+display: grid;
+height: 20vh;
+}
+
+
+/* titulo con el resto de redirecciones al resto de páginas */
+h1 {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  width: 100%;
+}
+
+a:active {
+  color: #3104b4;
+}
+
+nav li:hover {
+  color: #07ad47;
+}
+
+ li {
+ margin-bottom:10px;
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #f9ffae;
+  border: 1px solid #000;
+  text-align: center;
+  color: black;
+}
+
+#titulo{
+	margin-bottom:1500px;
+}
+/* login con la foto del caballo */
+#log {
+  position: relative;
+  right: 850px;
+  bottom:1689px;
+  z-index: 1000;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#photos{
+	position: relative;
+	bottom:1550px;
+	max-height: 30vh;
+}
+#photo_trenza_dragonera{
+position: relative;
+width:300px;
+height:330px;
+top: 0px;
+left:300px;
+padding: 5px 5px 0px 5px;
+}
+#photo1{
+	width: 150px;
+}
+
+#trenza_dragonera{
+	color: white;
+}
+#photo_trenza_corrida{
+position: relative;
+width:300px;
+height:330px;
+bottom:300px;
+left:750px;
+padding: 5px 5px 0px 5px;
+}
+#photo2{
+	width: 300px;
+}
+#trenza_corrida{
+	color: white;
+}
+#photo_castañetas{
+position: relative;
+width:300px;
+height:300px;
+bottom:710px;
+left:1200px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de leticia*/
+#photo3{
+	width: 200px;
+}
+/*texto de leticia*/
+#castañetas{
+	color: white;
+}
+
+/* para p  */
+@media screen and (min-width: 780px) {
+body {
+ background-image:url("img/istockphoto-868146602-612x612.jpg");
+  
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+display: grid;
+height: 50vh;
+}
+    
+    /* titulo con el resto de redirecciones al resto de páginas */
+   h1 {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  width: 100%;
+}
+
+a:active {
+  color: #3104b4;
+}
+
+nav li:hover {
+  color: #07ad47;
+}
+
+ li {
+ margin-bottom:10px;
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #f9ffae;
+  border: 1px solid #000;
+  text-align: center;
+  color: black;
+}
+
+#titulo{
+	margin-bottom:1500px;
+}
+/* login con la foto del caballo */
+#log {
+  position: relative;
+  right: 850px;
+  bottom:1689px;
+  z-index: 1000;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#photos{
+	position: relative;
+	bottom:1550px;
+	max-height: 30vh;
+}
+#photo_trenza_dragonera{
+position: relative;
+width:300px;
+height:300px;
+top: 0px;
+left:300px;
+
+}
+#photo1{
+	width: 150px;
+}
+
+#trenza_dragonera{
+	color: white;
+}
+#photo_trenza_corrida{
+position: relative;
+width:300px;
+height:300px;
+bottom:355px;
+left:750px;
+padding: 5px 5px 0px 5px;
+}
+#photo2{
+	width: 300px;
+}
+#trenza_corrida{
+	color: white;
+}
+#photo_castañetas{
+position: relative;
+width:300px;
+height:300px;
+bottom:710px; 
+left:1200px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de leticia*/
+#photo3{
+	width: 190px;
+}
+/*texto de leticia*/
+#castañetas{
+	color: white;
+}
+}

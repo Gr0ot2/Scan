@@ -1,0 +1,262 @@
+	 *{
+	 border:2px solid red;
+	 	 /*transform: translate3d(0, 0, 0);*/
+    box-sizing: border-box;
+}
+body {
+ background-image:url("img/istockphoto-868146602-612x612.jpg");
+ 
+ background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+display: grid;
+}
+
+/* titulo con el resto de redirecciones al resto de páginas */
+h1 {
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  width: 100%;
+}
+
+a:active {
+  color: #3104b4;
+}
+
+nav li:hover {
+  color: #07ad47;
+}
+
+ li {
+ margin-bottom:10px;
+  display: inline-flex;
+  padding: 5px 15px;
+  background-color: #f9ffae;
+  border: 1px solid #000;
+  text-align: center;
+  color: black;
+}
+
+#titulo{
+	margin-bottom:1500px;
+}
+/* login con la foto del caballo */
+#log {
+  position: relative;
+  right: 850px;
+  bottom:1689px;
+  z-index: 1000;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+}
+#photos{
+	position: relative;
+	bottom:1550px;
+	max-height: 30vh;
+}
+/*cuadro de marijuli*/
+#photo_marijuli{
+position: relative;
+width:300px;
+height:300px;
+top: 0px;
+left:300px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de marijuli*/
+#photo1{
+	width: 250px;
+}
+/*texto de marijuli*/
+#marijuli{
+	color: white;
+}
+/*cuadro de chicuelo*/
+#photo_chicuelo{
+position: relative;
+width:300px;
+height:300px;
+bottom:300px;
+left:750px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de chicuelo*/
+#photo2{
+	width: 250px;
+}
+/*texto de chicuelo*/
+#chicuelo{
+	color: white;
+}
+/*cuadro de leticia*/
+#photo_leticia{
+position: relative;
+width:300px;
+height:300px;
+bottom:600px;
+left:1200px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de leticia*/
+#photo3{
+	width: 250px;
+}
+/*texto de leticia*/
+#leticia{
+	color: white;
+}
+/*cuadro de pia*/
+#photo_pia{
+position: relative;
+width:300px;
+height:300px;
+bottom:570px;
+left:300px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de pia*/
+#photo4{
+	width: 250px;
+}
+/*texto de pia*/
+#pia{
+	color: white;
+}
+/*cuadro de valentina*/
+#photo_valentina{
+position: relative;
+width:300px;
+height:300px;
+bottom:870px;
+left:750px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de valentina*/
+#photo5{
+	width: 250px;
+}
+/*texto de valentina*/
+#valentina{
+	color: white;
+}
+/*cuadro de fermin*/
+#photo_fermin{
+position: relative;
+width:300px;
+height:300px;
+bottom:1170px;
+left:1205px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de fermin*/
+#photo6{
+	width: 250px;
+}
+/*texto de fermin*/
+#fermin{
+	color: white;
+}
+/*cuadro de tierra*/
+#photo_tierra{
+position: relative;
+width:300px;
+height:300px;
+bottom: 1140px;
+left:300px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de tierra*/
+#photo7{
+	width: 250px;
+}
+/*texto de tierra*/
+#tierra{
+	color: white;
+}
+/*cuadro de africa*/
+#photo_africa{
+position: relative;
+width:300px;
+height:300px;
+bottom:1440px;
+left:750px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de africa*/
+#photo8{
+	width: 250px;
+}
+/*texto de africa*/
+#africa{
+	color: white;
+}
+/*cuadro de bombon*/
+#photo_bombon{
+position: relative;
+width:300px;
+height:300px;
+bottom:1740px;
+left:1205px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de bombon*/
+#photo9{
+	width: 250px;
+}
+/*texto de bombon*/
+#bombon{
+	color: white;
+}
+/*cuadro de armonia*/
+#photo_armonia{
+position: relative;
+width:300px;
+height:300px;
+bottom:1710px;
+left:300px;
+padding: 5px 5px 0px 5px;
+}
+/*foto de armonia*/
+#photo10{
+	width: 250px;
+}
+/*texto de armonia*/
+#armonia{
+	color: white;
+}
+/*cuadro de gucci*/
+#photo_gucci{
+position: relative;
+width:300px;
+height:300px;
+bottom:2060px;
+left:750px;
+padding: 5px 5px 0px 5px;
+}
+/*photo de gucci*/
+#photo11{
+	width: 250px;
+}
+/*texto de gucci*/
+#gucci{
+	color: white;
+}
+
